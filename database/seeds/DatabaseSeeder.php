@@ -14,11 +14,18 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
+        //disable foreign key check for this connection before running seeders
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+
         // $this->call(UserTableSeeder::class);
 
         //call the table seeder
 
         $this->call(SchoolTableSeeder::class);
+        $this->call(StudentTableSeeder::class);
+
+        //supposed to only apply to a single connection and reset
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
         Model::reguard();
     }
