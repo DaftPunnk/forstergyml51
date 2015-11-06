@@ -32,3 +32,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 13.Creating Schools Migration-Model-Populating - 2015
 
 14.Creating Students Model and Relationships - 2015
+
+15.Relationships With Models - 2015
