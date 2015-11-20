@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('pages.home');
 });
+/**
+ * create a resource controller for school
+ */
+Route::resource('school','SchoolController',
+    ['only' => ['index', 'show']]);

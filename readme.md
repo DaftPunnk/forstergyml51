@@ -44,3 +44,7 @@ Marked by Stephen J 13/11/2015
 18.Using Layouts - 2015
 
 19.Installing LaravelCollective - 2015
+
+20.Displaying all the Schools - Part 1 - 2015
+
+Marked By Stephen J. 20/11/2015

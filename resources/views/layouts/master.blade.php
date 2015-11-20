@@ -1,17 +1,11 @@
 
-/**
- * Created by PhpStorm.
- * User: william
- * Date: 13/11/2015
- * Time: 10:56 AM
- */
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>{{( config('forstersgym.title'))}}</title>
-    {!! Html::style('css/bootstrap.min.css') !!}}
-    {!! Html::style('css/bootstrap-cosmo.min.css') !!}}
+    {!! Html::style('css/bootstrap.min.css') !!}
+    {!! Html::style('css/bootstrap-cosmo.min.css') !!}
 
     <!-- for extra styles -->
     @yield('styles')
@@ -22,8 +16,8 @@
     @yield('content')
 
     <!-- for common  js scripts -->
-    {!! Html::script('js/jquery-2.1.4.min.js') !!}}
-    {!! Html::script('js/bootstrap.min.js') !!}}
+    {!! Html::script('js/jquery-2.1.4.min.js') !!}
+    {!! Html::script('js/bootstrap.min.js') !!}
 
 
     <!-- for extra scripts -->

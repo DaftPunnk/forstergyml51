@@ -4,7 +4,7 @@
         <p>Enjoy using Laravel 5.1</p>
         <p>
             <a class="btn btn-primary btn-sm"
-               href="#" role="button">Click Here To Start</a>
+               href="{{ URL::to('school') }}" role="button">Click Here To Start</a>
         </p>
     </div>
 </div> <!-- end container-->
